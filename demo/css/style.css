@@ -1,0 +1,199 @@
+.text-left {
+    text-align: left!important;
+}
+
+.text-center{
+    text-align: center;
+}
+
+#calendar td{
+    padding: 1.75rem!important;
+    position: relative;
+}
+
+.button-spacing{
+    margin-right: 5%;
+}
+
+.tableHeading-Spacing{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.cellNumber{
+    top: 0;
+    right: 10px;
+    position: absolute;
+}
+
+.buttonCategory-spacing{
+    margin-right: 100px;
+}
+
+th{
+    text-align: center!important;
+}
+
+td{
+    height: 110px;
+}
+
+.green-dash{
+    background-color: green;
+    width: 70%;
+    height: 18px;
+    font-size: 13px;
+    color: white;
+    position: absolute;
+}
+
+.hiddenDisplay{
+    display: none;
+}
+
+.timeHeaderSpacing{
+    width: 30%;
+}
+
+dl
+{
+    width: 200px;
+    background: #fff;
+    border: 1px solid #000;
+}
+
+dt, dd
+{
+    display: inline;
+}     
+
+
+
+/*Weekly Calender styles */
+table.weeklyCalendar {
+    margin-bottom: 0;
+}
+
+table.weeklyCalendar > thead > tr > th {
+    text-align: center;
+}
+
+table.weeklyCalendar > tbody > tr > td {
+    height: 20px;
+}
+
+table.weeklyCalendar > tbody > tr > td > div {
+    padding: 8px;
+    height: 40px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
+}
+
+table.weeklyCalendar > tbody > tr > td.has-events {
+    color: white;
+    cursor: pointer;
+    padding: 0;
+    border-radius: 4px;
+}
+
+table.weeklyCalendar > tbody > tr > td.has-events > div {
+    background-color: #08C;
+    border-left: 1px solid white;
+}
+
+table.weeklyCalendar > tbody > tr > td.has-events > div:first-child {
+    border-left: 0;
+    margin-left: 1px;
+}
+
+table.weeklyCalendar > tbody > tr > td.has-events > div.practice {
+    opacity: 0.7;
+}
+table.weeklyCalendar > tbody > tr > td.conflicts > div > span.title {
+    color: red;
+}
+table.weeklyCalendar > tbody > tr > td.max-conflicts > div {
+    background-color: red;
+    color: white;
+}
+
+table.weeklyCalendar > tbody > tr > td.has-events > div > span {
+    display: block;
+    text-align: center;
+}
+table.weeklyCalendar > tbody > tr > td.has-events > div > span a {
+    color: white;
+}
+
+table.weeklyCalendar > tbody > tr > td.has-events > div > span.title {
+    font-weight: bold;
+}
+
+table.table-borderless > thead > tr > th, table.table-borderless > tbody > tr > td {
+    border: 0;
+}
+
+.table tbody tr.hover td, .table tbody tr.hover th {
+    background-color: whiteSmoke;
+}
+
+/* Day Calendar*/
+table.weeklyCalendar {
+    margin-bottom: 0;
+}
+
+table.dailyCalendar > thead > tr > th {
+    text-align: center;
+}
+
+table.dailyCalendar > tbody > tr > td {
+    height: 20px;
+}
+
+table.dailyCalendar > tbody > tr > td > div {
+    padding: 8px;
+    height: 40px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
+}
+
+table.dailyCalendar > tbody > tr > td.has-events {
+    color: white;
+    cursor: pointer;
+    padding: 0;
+    border-radius: 4px;
+}
+
+table.dailyCalendar > tbody > tr > td.has-events > div {
+    background-color: #08C;
+    border-left: 1px solid white;
+}
+
+table.dailyCalendar > tbody > tr > td.has-events > div:first-child {
+    border-left: 0;
+    margin-left: 1px;
+}
+
+table.dailyCalendar > tbody > tr > td.has-events > div.practice {
+    opacity: 0.7;
+}
+table.dailyCalendar > tbody > tr > td.conflicts > div > span.title {
+    color: red;
+}
+table.dailyCalendar > tbody > tr > td.max-conflicts > div {
+    background-color: red;
+    color: white;
+}
+
+table.dailyCalendar > tbody > tr > td.has-events > div > span {
+    display: block;
+    text-align: center;
+}
+
+.daySized{
+    width: 30%!important;
+}
